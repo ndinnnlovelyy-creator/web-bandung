@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Quicksand' , sans-serif ;
+}
+
+h2 {
+    text-align: center;
+    color:aqua;
+    padding-top: 21px;
+}
+
+body > header{
+    background-color:blue;
+}
+
+header > p {
+    text-align: center;
+    color:rgb(34, 62, 114);
+    padding-top: 15px;
+}
+
+header > nav > ul {
+    background-color:rgb(136, 221, 252);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    color:blue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 15px;
+}
+
+li a {
+    color:blue;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+#content {
+    flex: 3;
+    padding:40px;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+}
+
+aside  {
+    flex:1;
+    padding: 40px;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+}
+
+aside header h3 {
+    color:rgb(87, 26, 83);
+    text-align: center;
+}
+
+#sejarah p {
+    padding: 15px;
+}
+
+#wisata p {
+    padding: 15px;
+}
+
+#geografis p {
+    padding: 15 px;
+}
+
+#sejarah h3 {
+    text-align: ;
+}
+
+#wisata h3 {
+    text-align: ;
+}
+
+#geografis h3 {
+    text-align: ;
+}
+
+figcaption {
+    text-align: ;
+}
+
+table {
+    padding: 15px;
+}
+section h3 {
+    text-align: ;
+}
+
+img {
+    margin-left: 20px;
+}
+
+#sejarah h3 {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+h3 {
+    margin: 20px;
+}
